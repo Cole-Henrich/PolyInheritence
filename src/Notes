@@ -1,0 +1,118 @@
+
+Java does not allow polyextension (c extends b and a )
+but c can extend b which extends a
+
+
+Exceptions
+    NullPointer
+        points to null
+    ClassCast
+        Cast is not allowed - casting across not allowed / down the tree
+    compile can A a be of B()?
+    yes
+    runtime
+    can b() be of type d()
+
+      A
+     B C
+    D
+
+    ^
+    ^Compile looks up and down tree
+    Runtime goes up only
+
+    A a = new D()
+    ok ok.
+    can cast below var type not object type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
